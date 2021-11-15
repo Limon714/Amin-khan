@@ -210,7 +210,9 @@ img{
   color: var(--second-color);
 }
 .home__social-icon:hover{
-  color: var(--first-color);
+  color: #fff;
+  background-color: rgb(76, 3, 110);
+  border-radius: 50%;
 }
 .home__img{
   position: absolute;
