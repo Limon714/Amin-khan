@@ -361,8 +361,14 @@ img{
 .footer__icon{
   font-size: 1.5rem;
   color: #fff;
-  margin: 0 var(--mb-2)
+  margin: 0 var(--mb-2);
 }
+.footer__icon:hover{
+  color: #fff;
+  background-color: rgb(76, 3, 110);
+  border-radius: 50%;
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
